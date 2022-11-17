@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div.quote {
+            font-size: 46pt;
+        }
+
+        div.author {
+            font-size: 18pt;
+            font-style: italic;
+            float: right;
+            padding-top: 25px;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .center {
+            align-items: center;
+            text-align: justify;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+    <div id="quote" class="quote"></div>
+    <div class="author">-- <span id="author"></span></div>
+</div>
+</div>
+</body>
+<script src="quote.js"></script>
+</html>
